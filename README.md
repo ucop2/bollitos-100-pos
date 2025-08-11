@@ -57,7 +57,7 @@ Contribución
 
 Roadmap
 
-🛠 Requerimientos
+Requerimientos
 Servidores
 GlassFish 6.x
 
@@ -77,7 +77,7 @@ Lombok (opcional para reducir código boilerplate)
 Versión de Java
 Java 17 (LTS)
 
-⚙ Instalación
+Instalación
 1️Instalar Ambiente de Desarrollo
 bash
 Copiar
