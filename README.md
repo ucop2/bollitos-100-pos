@@ -36,7 +36,8 @@ graph TD
 A[Usuario Final] -->|HTTP/HTTPS| B[GlassFish Server]
 B -->|JPA/Hibernate| C[Base de Datos MySQL]
 B -->|REST API| D[Clientes externos]
-Tabla de Contenidos
+
+## Tabla de Contenidos
 Descripción
 
 Problema Identificado
@@ -57,7 +58,7 @@ Contribución
 
 Roadmap
 
-Requerimientos
+## Requerimientos
 Servidores
 GlassFish 6.x
 
@@ -77,7 +78,7 @@ Lombok (opcional para reducir código boilerplate)
 Versión de Java
 Java 17 (LTS)
 
-Instalación
+## Instalación
 1️Instalar Ambiente de Desarrollo
 bash
 Copiar
@@ -87,8 +88,8 @@ git clone https://github.com/usuario/BollitosPOS.git
 cd BollitosPOS
 
 # Instalar dependencias
-mvn clean install
-2️Configurar Base de Datos
+1 mvn clean install
+2️ Configurar Base de Datos
 sql
 Copiar
 Editar
@@ -97,7 +98,7 @@ CREATE USER 'bollitosuser'@'localhost' IDENTIFIED BY 'contraseña';
 GRANT ALL PRIVILEGES ON bollitospos.* TO 'bollitosuser'@'localhost';
 Actualizar application.properties con credenciales de la BD.
 
-3️Ejecutar Pruebas Manualmente
+3️ Ejecutar Pruebas Manualmente
 bash
 Copiar
 Editar
@@ -109,7 +110,7 @@ Heroku: Empaquetar como .jar y desplegar usando heroku deploy:jar.
 
 Docker (opcional): Crear imagen con GlassFish y MySQL integrados.
 
-Configuración
+## Configuración
 Archivos de Configuración
 src/main/resources/application.properties
 
@@ -124,14 +125,14 @@ Puerto del servidor (default 8080).
 
 Variables de entorno para despliegue en la nube.
 
-Uso
+## Uso
 Para Usuario Final
 Manual en PDF: Manual Usuario Final
 
 Para Administrador
 Manual en PDF: Manual Administrador
 
-Contribución
+## Contribución
 Clonar repositorio:
 
 bash
@@ -152,7 +153,7 @@ Editar
 git push origin feature/nueva-funcionalidad
 Esperar revisión y merge.
 
-Roadmap
+## Roadmap
 Integrar pagos en línea.
 Reportes gráficos con estadísticas.
 Módulo de pedidos en línea.
