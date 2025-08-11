@@ -86,7 +86,7 @@ Editar
 git clone https://github.com/usuario/BollitosPOS.git
 cd BollitosPOS
 
-# Instalar dependencias (si se usa Maven)
+# Instalar dependencias
 mvn clean install
 2️Configurar Base de Datos
 sql
@@ -153,14 +153,7 @@ git push origin feature/nueva-funcionalidad
 Esperar revisión y merge.
 
 Roadmap
- Integrar pagos en línea.
-
- Reportes gráficos con estadísticas.
-
- Módulo de pedidos en línea.
-
- Soporte multi-sucursal.
-
-yaml
-Copiar
-Editar
+Integrar pagos en línea.
+Reportes gráficos con estadísticas.
+Módulo de pedidos en línea.
+Soporte multi-sucursal.
