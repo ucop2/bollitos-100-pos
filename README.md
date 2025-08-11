@@ -31,7 +31,7 @@ Implementar un sistema centralizado que:
 - **Framework**: Spring MVC + JPA/Hibernate
 - **Servicios**: RESTful API
 
-```mermaid
+mermaid
 graph TD
 A[Usuario Final] -->|HTTP/HTTPS| B[GlassFish Server]
 B -->|JPA/Hibernate| C[Base de Datos MySQL]
